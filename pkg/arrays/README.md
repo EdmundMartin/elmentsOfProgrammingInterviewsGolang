@@ -4,4 +4,4 @@
 * 5.4 Advancing Through An Array
 
 # Next Up
-* 5.6 
+* 5.8
