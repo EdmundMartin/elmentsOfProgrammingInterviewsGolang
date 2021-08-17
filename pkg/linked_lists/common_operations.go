@@ -1,6 +1,5 @@
 package linked_lists
 
-
 func InsertAfter(node *ListNode, newNode *ListNode) {
 	newNode.Next = node.Next
 	node.Next = newNode
@@ -16,4 +15,9 @@ func SearchList(l *ListNode, value int) *ListNode {
 
 func DeleteFromList(node *ListNode) {
 	node.Next = node.Next.Next
+}
+
+func DeletionFromList(nodeForDeletion *ListNode) {
+	nodeForDeletion.Data = nodeForDeletion.Next.Data
+	nodeForDeletion.Next = nodeForDeletion.Next.Next
 }

@@ -8,7 +8,7 @@ func ReverseSublist(l *ListNode, start, end int) *ListNode {
 	}
 
 	subListIter := subListHead.Next
-	for i := 0; i < end - start; i++ {
+	for i := 0; i < end-start; i++ {
 		temp := subListIter.Next
 		subListIter.Next, temp.Next, subListHead.Next = temp.Next, subListHead.Next, temp
 	}

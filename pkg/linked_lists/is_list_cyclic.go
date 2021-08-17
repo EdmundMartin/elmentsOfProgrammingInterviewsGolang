@@ -1,6 +1,5 @@
 package linked_lists
 
-
 func cycleLength(end *ListNode) int {
 	start, step := end, 0
 	for {

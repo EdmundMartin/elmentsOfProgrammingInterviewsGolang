@@ -1,6 +1,5 @@
 package linked_lists
 
-
 func MergeTwoSortedLists(first, second *ListNode) *ListNode {
 	dummyHead := &ListNode{}
 	tail := dummyHead
